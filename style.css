@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0 ;
     box-sizing: border-box;
 }
 .navbar{
@@ -8,10 +8,13 @@
     align-items: center;
     padding: 20px;
 }
+
 .navba{
     display: flex;
     align-items: center;
-    padding: 10px;}
+    padding: 5px;
+    margin : 5px;
+}
 
 nav{
     flex: 1;
@@ -22,8 +25,12 @@ nav ul{
     list-style-type: none;
 }
 nav ul li{
+   
     display: inline-block;
     margin-right: 20px;
+}
+nav ul li :hover {
+    color: #db8a11;
 }
 a{
     text-decoration: none;
@@ -73,9 +80,8 @@ p{
 .header{
     background-color: #e6e2e7;
 }
-.logo img{
-    border-radius: 80%;
-}
+
+
 .hel{
     border-radius: 50%;
 }
@@ -90,3 +96,22 @@ p{
 .col3 img{
     width: 100%;
 }
+form.example button {
+    float: right;
+    background: black;
+    color: white;
+    width: 30px;
+} 
+.round{
+    border-radius: 15px;
+    display: inline;
+    cursor: pointer;
+    
+    
+} 
+.round :hover{
+    color: aqua;
+}
+
+
+
