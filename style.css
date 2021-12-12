@@ -317,6 +317,163 @@ footer a {
 
   
 
+/* SIGN UP*/
+
+.space h2 {
+    text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif ;
+  margin-bottom: 5%;
+  margin-top: 70px;
+}    
+.space p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(100, 89, 89);
+    padding-left: 10%;
+    padding-right: 10%;
+} 
+.about{
+    background-image: url(about.jpg);
+    background-attachment: fixed;
+} 
+
+  
+
+ .float{
+margin-left:50px;
+margin-top: 100px;
+float: left;
+
+
+ }
+
+
+ .boxx{
+  width: 40%;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 50%;
+margin-left:100px;
+     margin-top: 100px;
+ }
+ .boxx{
+float: left;
+
+margin-bottom: 100px;
+ }
+ 
+ .boxx h4{
+     margin-top: 30px;
+ }
+ .boxx h3{
+  margin-top: 10px;
+}
+ .boxx img{
+     width: 20%;
+     border-radius: 80%;
+     height: 20%;
+     
+ }
+ .float h1{
+     color: rgb(201, 198, 193);
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px;  
+ }
+ footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 15px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  z-index: 999;
+  
+}
+ 
+
+footer p {
+  margin: 10px 0;
+  margin-top: 8px;
+  margin-right: 0px;
+  margin-bottom: 8px;
+  margin-left: 0px;
+}
+
+/*   sign up    */
+
+
+ 
+.back{
+  background-image: url(images/avatar.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+   
+}
+.containe {
+    margin-top: 60px;
+  text-align: center;
+}
+.containe h1{
+    margin-bottom: 87px;
+    font-size: 50px;
+}
+<!--input[type="texted"],
+    input[type="email"],
+    input[type="password"] {
+      width: 20%;
+      height: 5px;
+      padding: 15px;
+      margin: 5px 0 20px 0;
+      display: inline-block;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      background: whitesmoke;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+      background-color: #ddd;
+      outline: none;
+      
+    }
+    .registerbtn {
+      background-color: turquoise;
+      color: black;
+      padding: 10px 10px;
+      margin: 8px;
+      cursor: pointer;
+      width: 15%;
+      border-radius: 10px ;
+      opacity: 0.9;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+    .registerbtn:hover {
+      opacity: 1;
+    }
+    
+  .login  a  {
+      color: blue;
+      text-decoration: underline;
+    }
+    .login p{
+       text-align: center;
+        color: rgb(156, 101, 101);
+    } 
+     
+     
+    
+
+    
+
+
 
 
 
