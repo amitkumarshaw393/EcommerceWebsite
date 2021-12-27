@@ -387,5 +387,40 @@
                     <a href="#">&copy; 2021 | Eagle</a>
                     </div>
                 </footer>
+                <script>
+                //Right Key Disabled
+
+                document.addEventListener("contextmenu", function(event) {
+                  event.preventDefault();
+              //    alert('Right Click is Disabled , Please reach Out to the Developer');
+                }, false);
+            
+            
+                // CTRL + U is disabled
+                document.onkeydown = function(e) {
+                  if (e.ctrlKey &&
+                    (e.keyCode === 85)) {
+                    // alert('CTRL + U also Disabled , Please reach Out to the Developer');
+                    return false;
+                  }
+                };
+                //Get the button:
+            mybutton = document.getElementById("myBtn");
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0; 
+              document.documentElement.scrollTop = 0; 
+            }
+              </script>
             </body>
         </html>
