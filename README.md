@@ -1,12 +1,12 @@
 # EcommerceWebsite
-A design to build a e-commerce website
+A design to build a e-commerce website.The project is built with some programming concepts and using HTML, CSS. The entire Project will be coordinated via github , and in case you feel any difficulties feel free tag below mentors .Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications.
 
 
 ![2021-12-27 (1)](https://user-images.githubusercontent.com/77718381/147476630-de3cca64-439a-429d-ab7a-92d808283d1c.png)
 
 
 
-The project is built with some programming concepts and using HTML, CSS. The entire Project will be coordinated via github , and in case you feel any difficulties feel free tag below mentors .
+
 
 
 
@@ -15,7 +15,7 @@ The project is built with some programming concepts and using HTML, CSS. The ent
 
 
 
-Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications.
+
 
 
 
